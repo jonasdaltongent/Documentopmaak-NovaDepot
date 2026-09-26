@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klaar om te versturen · dia's · NovaDepot</title>
+  <link rel="icon" href="assets/novadepot-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/slides.css">
+  <style>
+    .mono { font-family: "Courier New", monospace; font-size: 26px; font-weight: 700; }
+    .path { font-family: "Courier New", monospace; font-weight: 700; font-size: 28px; color: var(--navy-deep); background: #fff; border: 2px solid #D6D5CB; border-radius: 12px; padding: 8px 16px; display: inline-block; margin: 0 0 14px; }
+    .qhead { font-size: 30px; font-weight: 700; margin: 0 0 6px; }
+    .qcol .opt { font-size: 26px; padding: 8px 16px; }
+    .qcol .opt .n { width: 46px; height: 46px; font-size: 24px; }
+    .steps2 { columns: 2; column-gap: 40px; margin: 0; }
+    .steps2 li { font-size: 25px; margin-bottom: 6px; break-inside: avoid; }
+    .klok { font-size: 22px; color: #4D5573; }
+    .compact .two { flex: 0 0 auto; }
+    .compact .panel p { margin-bottom: 10px; }
+    .compact .panel p:last-child { margin-bottom: 0; }
+    /* Nagemaakte pagina's (dia 4) */
+    .pages { display: grid; grid-template-columns: 1.35fr 1fr; gap: 40px; align-items: end; flex: 1; min-height: 0; }
+    .page-mock { background: #fff; border: 1px solid #C9C8BE; box-shadow: 0 8px 24px rgba(29,35,64,.15); position: relative; margin: 0 auto; }
+    .page-mock.land { width: 470px; height: 332px; padding: 10px 12px; }
+    .page-mock.port { width: 250px; height: 354px; padding: 26px 28px; }
+    .page-mock .bar { height: 8px; border-radius: 3px; background: #C9CEE6; margin-bottom: 7px; }
+    .page-mock .bar.t { height: 13px; background: #2A3973; margin: 6px auto 12px; }
+    .page-mock .bar.h { height: 10px; background: #7F8AC0; width: 34%; margin-top: 12px; }
+    .page-mock .grey { font-family: Arial, sans-serif; font-size: 11px; color: #888; margin: 0 0 4px; line-height: 1.2; }
+    .page-mock .pil { font-family: Arial, sans-serif; font-size: 15px; color: var(--navy); font-weight: 700; line-height: 1; margin: 0 0 3px; }
+    .page-mock .kop { position: absolute; top: 8px; right: 28px; font-family: Arial, sans-serif; font-size: 10px; color: var(--navy); font-weight: 700; }
+    .page-mock .voet { position: absolute; bottom: 8px; right: 28px; font-family: Arial, sans-serif; font-size: 11px; color: var(--navy); font-weight: 700; }
+    .page-mock .rand { position: absolute; inset: 22px 24px; border: 2px dashed #A7B1DE; pointer-events: none; }
+    .cap { text-align: center; font-size: 24px !important; font-weight: 700; margin-top: 12px; }
+    .cap.bad { color: var(--warn); }
+    .cap.good { color: var(--ok); }
+  </style>
+</head>
+<body>
+<div class="hud"><span id="counter"></span> · <kbd>→</kbd> verder · <kbd>F</kbd> volledig scherm · <kbd>N</kbd> notities</div>
+<div class="deck"><div class="stage">
+
+<!-- 1 -->
+<section class="slide title">
+  <p class="kicker" style="color:var(--blush)">Toegepaste Informatica · les 04</p>
+  <h1>Klaar om<br>te versturen</h1>
+  <p>Documentopmaak en pdf · NovaDepot</p>
+  <div class="logos"><img src="assets/novadepot-logo.svg" alt="NovaDepot"><img src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent"></div>
+  <template class="note"><p><strong>Lesstart (0–1').</strong> Laat de computers opstarten en aanmelden terwijl deze dia op het bord staat. Ga verder zodra de meesten aangemeld zijn.</p></template>
+</section>
+
+<!-- 2 -->
+<section class="slide" data-answer>
+  <p class="kicker">Lesstart · 3 minuten</p>
+  <h2>Weet je het nog? (les 02 en 03)</h2>
+  <div class="two">
+    <div class="qcol">
+      <p class="qhead">1. Wat betekent ¶ in je document?</p>
+      <div class="opts">
+        <div class="opt"><span class="n">A</span>Hier staat een spatie.</div>
+        <div class="opt right"><span class="n">B</span>Hier werd op Enter gedrukt.</div>
+        <div class="opt"><span class="n">C</span>Hier staat een fout.</div>
+      </div>
+    </div>
+    <div class="qcol">
+      <p class="qhead">2. Hoe zet je een titel in het midden?</p>
+      <div class="opts">
+        <div class="opt"><span class="n">A</span>Met spaties ervoor.</div>
+        <div class="opt right"><span class="n">B</span>Met de knop Centreren.</div>
+        <div class="opt"><span class="n">C</span>Met de Tab-toets.</div>
+      </div>
+    </div>
+  </div>
+  <p class="answer">¶ = Enter · centreren met de knop of Ctrl + Shift + E. Vandaag leer je waarom Enters ook geen nieuwe pagina maken.</p>
+  <template class="note">
+    <p><strong>Lesstart (3'), retrieval van les 02 en 03.</strong> Iedereen antwoordt tegelijk met vingers: 1, 2 of 3 vingers voor A, B of C. Eerst vraag 1, dan vraag 2. Druk daarna op → voor de antwoorden.</p>
+    <p>Kies één leerling die het foute antwoord gaf en vraag: <em>"Wat gebeurt er met je titel als je later de lettergrootte verandert?"</em> (Dan staat hij niet meer in het midden.) Dezelfde redenering komt vandaag terug bij de lege regels.</p>
+    <p>Is er uit de exitvragen van les 03 een fout die vaak terugkwam? Noem ze hier kort.</p>
+  </template>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 1 van 4</p>
+  <h2>Wat kan je straks?</h2>
+  <ul class="rules">
+    <li>Je zet een pagina <strong>staand</strong>, op <strong>A4</strong>, met <strong>marges van 2 cm</strong>.</li>
+    <li>Je maakt een <strong>koptekst</strong> en <strong>paginanummers</strong>.</li>
+    <li>Je begint een nieuwe pagina met een <strong>pagina-einde</strong>, niet met Enters.</li>
+    <li>Je maakt een <strong>pdf</strong> en voegt hem toe in Classroom.</li>
+  </ul>
+  <p class="klok" style="margin-top:6px">Ik leg 5 minuten uit. Daarna werk jij zelfstandig met de lespagina, en kom ik bij jou langs.</p>
+  <template class="note"><p><strong>Ik doe, 0'30".</strong> Lesdoel voorlezen, niet toelichten. Zeg er meteen bij dat de uitleg maar vijf minuten duurt en dat alles daarna op de lespagina staat.</p></template>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 2 van 4</p>
+  <h2>Van dit … naar dit</h2>
+  <div class="pages">
+    <div>
+      <div class="page-mock land" aria-label="Nu: liggend, tekst tot tegen de rand">
+        <p class="grey">NovaDepot · Onthaalbrochure jobstudenten · oktober 2026</p>
+        <div class="bar t" style="width:40%"></div>
+        <div class="bar"></div><div class="bar" style="width:70%"></div>
+        <div class="bar h"></div><div class="bar"></div><div class="bar" style="width:85%"></div>
+        <div class="bar h"></div><div class="bar" style="width:60%"></div><div class="bar" style="width:55%"></div><div class="bar" style="width:62%"></div>
+        <p class="pil">¶</p><p class="pil">¶</p><p class="pil">¶</p><p class="pil">¶</p>
+      </div>
+      <p class="cap bad">Nu: liggend, tot tegen de rand, lege regels</p>
+    </div>
+    <div>
+      <div class="page-mock port" aria-label="Straks: staand, koptekst, marges en paginanummer">
+        <span class="kop">NovaDepot · Onthaalbrochure</span>
+        <span class="rand"></span>
+        <div class="bar t" style="width:70%"></div>
+        <div class="bar"></div><div class="bar"></div><div class="bar" style="width:60%"></div>
+        <div class="bar h"></div><div class="bar"></div><div class="bar"></div><div class="bar" style="width:75%"></div>
+        <div class="bar h"></div><div class="bar" style="width:80%"></div><div class="bar" style="width:70%"></div>
+        <span class="voet">Pagina 1</span>
+      </div>
+      <p class="cap good">Straks: staand, 2 cm rand, koptekst, Pagina 1</p>
+    </div>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'.</strong> Toon het eindproduct. Wijs vier dingen aan: staand in plaats van liggend · de witte rand (marge) · de koptekst rechtsboven · <em>Pagina 1</em> rechtsonder.</p>
+    <p>Zeg er één zin bij over het waarom: <em>"Deze brochure gaat naar nieuwe jobstudenten. Die krijgen hem als pdf: dan ziet hij er op elke gsm en computer hetzelfde uit."</em></p>
+    <p>Wijs ook de ¶-tekens links aan: <em>"Iemand drukte hier op Enter, Enter, Enter om deel 2 op een nieuwe pagina te krijgen. Kijk straks wat daarmee gebeurt."</em></p>
+  </template>
+</section>
+
+<!-- 5 -->
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 3 van 4 · demo</p>
+  <h2>De pagina instellen</h2>
+  <p class="path">Bestand › Pagina-instelling</p>
+  <table class="style-table">
+    <tr><th>Bovenaan</th><td>Pagina's</td></tr>
+    <tr><th>Afdrukstand</th><td>staand</td></tr>
+    <tr><th>Papierformaat</th><td>A4</td></tr>
+    <tr><th>Marges</th><td>2 · 2 · 2 · 2 cm → OK</td></tr>
+  </table>
+  <p class="reveal-item" style="margin-top:16px;color:#A0372A"><strong>Kijk naar deel 2: de Enters kloppen niet meer.</strong> Dat los jij op in stap 5.</p>
+  <template class="note">
+    <p><strong>Ik doe, 1'30" — hardop denkend voordoen in je eigen kopie van het werkdocument.</strong> Dit is rij 1 van het vragenblad: die staat al ingevuld bij de leerlingen.</p>
+    <ol>
+      <li>Zet eerst de opmaakmarkeringen aan: <em>Bekijken › Opmaakmarkeringen tonen</em>. Wijs de lege ¶ tussen deel 1 en deel 2 aan.</li>
+      <li><em>Bestand › Pagina-instelling</em>. Zeg: <em>"Bovenaan kies ik Pagina's. Zonder pagina's kan ik straks geen koptekst maken."</em></li>
+      <li>Staand, A4, vier keer 2. Zeg: <em>"Waarom 2 cm? Dan leest de tekst rustiger, en valt er bij het afdrukken niets weg."</em> OK.</li>
+      <li>Scrol naar deel 2 en druk op →. Zeg: <em>"Zien jullie dat? De Enters duwden deel 2 naar de juiste plaats — maar nu de pagina anders is, klopt het niet meer. Enters zijn geen oplossing."</em></li>
+    </ol>
+  </template>
+</section>
+
+<!-- 6 -->
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 4 van 4 · demo</p>
+  <h2>Kop- en voettekst</h2>
+  <div class="two">
+    <div class="panel">
+      <p style="font-size:24px"><strong>Koptekst of voettekst</strong></p>
+      <p class="mono">Invoegen › Pagina-elementen › Koptekst</p>
+      <p style="font-size:24px">Terug naar je tekst: klik in de gewone tekst.</p>
+    </div>
+    <div class="panel">
+      <p style="font-size:24px"><strong>Straks zelf, op de lespagina:</strong></p>
+      <p class="mono">Invoegen › Pagina-elementen › Paginanummer</p>
+      <p class="mono">Invoegen › Eindemarkering › Pagina-einde</p>
+      <p class="mono">Ctrl + Enter</p>
+    </div>
+  </div>
+  <p class="reveal-item" style="margin-top:18px"><strong>Je typt het één keer. Het staat op elke pagina.</strong></p>
+  <template class="note">
+    <p><strong>Ik doe, 1'30".</strong> Het tweede stuk van de demo: de koptekst. Dat is het enige andere dat vaak misloopt.</p>
+    <ol>
+      <li>Klik 3 keer in de grijze regel bovenaan pagina 1 en knip hem (Ctrl + X).</li>
+      <li><em>Invoegen › Pagina-elementen › Koptekst</em>, plak (Ctrl + V), Ctrl + Shift + R.</li>
+      <li>Zeg: <em>"Nu zit ik in de koptekst. Hoe kom ik eruit? Ik klik gewoon in mijn tekst."</em> Doe het.</li>
+      <li>Scrol naar pagina 2: <em>"Kijk, hij staat er ook. Ik typte hem maar één keer."</em></li>
+    </ol>
+    <p>Paginanummers en het pagina-einde doe je <strong>niet</strong> voor: die staan stap voor stap op de lespagina. Heet een menu bij jou anders dan <em>Pagina-elementen</em> of <em>Eindemarkering</em>? Zeg het meteen aan de klas (zie README §8).</p>
+    <p>Druk op → voor de zin onderaan. Daarna meteen door naar dia 7: de vijf minuten zijn om.</p>
+  </template>
+</section>
+
+<!-- 7 -->
+<section class="slide compact">
+  <p class="kicker">Jullie doen · 34 minuten</p>
+  <h2>Zo werk je verder</h2>
+  <div class="two">
+    <div>
+      <ol class="steps2">
+        <li>Klaarzetten <span class="klok">3'</span></li>
+        <li>De pagina instellen <span class="klok">4'</span></li>
+        <li>Een koptekst <span class="klok">6'</span></li>
+        <li>Paginanummers <span class="klok">5'</span></li>
+        <li>Een nieuwe pagina <span class="klok">6'</span></li>
+        <li>Een pdf maken <span class="klok">6'</span></li>
+        <li>Controleren en inleveren <span class="klok">5'</span></li>
+      </ol>
+    </div>
+    <div class="panel navy">
+      <p style="font-size:25px"><strong>Vast?</strong></p>
+      <p>1. Theoriekaart &nbsp; 2. Hulp nodig?</p>
+      <p>3. Je buur &nbsp; 4. Ik</p>
+      <p style="margin-top:14px;font-size:22px">Vink af in de <strong>checklist</strong>.</p>
+    </div>
+  </div>
+  <p class="klok" style="margin-top:18px"><!-- PAS AAN na het publiceren: zet hier jouw eigen GitHub Pages-adres -->
+    <strong>De lespagina staat in Classroom</strong>, bij de opdracht <em>Tekstverwerking 3 — Klaar om te versturen</em>.
+    Adres: jonasdaltongent.github.io/Documentopmaak-NovaDepot/ &nbsp;·&nbsp; Je levert je <strong>werkdocument én je pdf</strong> in.</p>
+  <template class="note">
+    <p><strong>Jullie doen, 34'.</strong> Laat deze dia staan zolang ze werken.</p>
+    <p>Eerste rondgang: kijk alleen of iedereen in de eigen kopie van het werkdocument werkt, en of de opmaakmarkeringen aan staan. Zonder ¶ zien ze de lege regels in stap 5 niet.</p>
+    <p>Tweede rondgang, rond stap 3: zit er iemand vast in de koptekst (typt verder bovenaan elke pagina)? Eén zin volstaat: <em>"Klik in je gewone tekst."</em></p>
+    <p>Daarna gerichte hulp. Wie stap 2 niet rond krijgt: verlengde instructie aan de instructietafel.</p>
+    <p><strong>Vergeet niet</strong> het adres op deze dia aan te passen als de repository anders heet.</p>
+  </template>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <p class="kicker">Afsluiten · 2 minuten</p>
+  <h2>Eén vraag voor je vertrekt</h2>
+  <div class="panel navy" style="margin-top:10px">
+    <p style="font-size:30px">Waarom stuurt NovaDepot de brochure als pdf, en niet als Google-document?</p>
+  </div>
+  <p style="margin-top:24px">Volgende les: <strong>tabellen</strong>. Je maakt een overzicht van de leveringen en een deelnemerslijst voor de infosessie van de jobstudenten.</p>
+  <template class="note">
+    <p><strong>Afsluiting, 2'.</strong> Laat twee of drie leerlingen antwoorden. Verwacht: hij ziet er overal hetzelfde uit · niemand verandert hem per ongeluk · je kan hem op elk toestel openen.</p>
+    <p>Wie niet klaar is: toch inleveren, met in een privéreactie tot welke stap ze geraakt zijn. De rest is keuzewerktijd.</p>
+    <p>Lees na de les de antwoorden op vraag 4 (wat was moeilijk?). De vaakst genoemde stap wordt de lesstart van les 05.</p>
+  </template>
+</section>
+
+</div></div>
+<div class="notes" id="notes"></div>
+<script src="js/slides.js"></script>
+</body>
+</html>
