@@ -110,7 +110,15 @@ Daarna, voor deze les:
 
 ### Stap 3 — Eén opdracht in Google Classroom
 
-Onderwerp **Tekstverwerking – de basis** (zoals les 02–03). Voeg het werkdocument toe met
+> [!NOTE]
+> **Gepost op 27-09-2026** in 3ORLO 2027, 4ORLOa 2027 en 4ORLOb 2027, met
+> `_tools/zet_opdracht_klaar.py` en `classroom.json` (zie `_tools/CLASSROOM-KOPPELING.md`). Het script
+> zette het werkdocument om en maakte de concepten; daarna zijn ze op jouw vraag gepubliceerd. Het
+> werkdocument staat in *Mijn Drive* › `Classroom-bijlagen` › de naam van deze lesmap. De controle van
+> stap 2 gebeurde via een export van het omgezette document: alle opzettelijke fouten zijn bewaard.
+> Wat volgt, is de manier met de hand, voor als je de opdracht ooit opnieuw moet maken.
+
+Onderwerp **Tekstverwerker** (zoals les 02–03). Voeg het werkdocument toe met
 **Bijvoegen** › **Drive** en kies **Een kopie maken voor elke leerling**: elke leerling krijgt een eigen
 kopie met de eigen naam in de titel. Voeg de lespagina toe met **Link**.
 
@@ -118,7 +126,7 @@ kopie met de eigen naam in de titel. Voeg de lespagina toe met **Link**.
 |---|---|
 | **Bijlage 1** | de link naar de lespagina |
 | **Bijlage 2** | `TV3_Documentopmaak` (Google-document) — **Een kopie maken voor elke leerling** |
-| **Punten** | zonder cijfer (formatief) |
+| **Punten** | 20 (zoals les 02–03) |
 | **Deadline** | vrijdag 2 oktober 2026, 20.00 uur |
 
 > [!NOTE]
@@ -130,7 +138,7 @@ Instructietekst (kopieer):
 ```text
 1. Open de lespagina (link) en je werkdocument TV3_Documentopmaak.
 2. Volg de stappen op de lespagina. In stap 6 maak je een pdf.
-3. Lever je werkdocument én je pdf in.
+3. Lever je werkdocument én je pdf in, ten laatste vrijdag 2 oktober 2026 om 20.00 uur.
 ```
 
 Wie niet klaar is, levert toch in: dat zeg je mondeling op het einde van de les (notities bij dia 8).
@@ -141,8 +149,9 @@ Je e-mailadres is deze les **niet** nodig: de leerlingen delen niets.
 ### Afvinklijst vóór de les
 
 - [x] De lespagina is gepubliceerd en het adres op dia 7 klopt. (Getest op 27-09-2026.)
-- [ ] Het werkdocument is een **Google-document** (geen `.docx` achter de naam), toegevoegd met
-  **Drive**, en bevat nog alle fouten (stap 2 hierboven).
+- [x] De opdracht staat in 3ORLO, 4ORLOa en 4ORLOb. (Gepost op 27-09-2026.)
+- [x] Het werkdocument is een **Google-document** met *Een kopie maken voor elke leerling*, en bevat
+  nog alle fouten. (Nagekeken op 27-09-2026 via een export.)
 - [ ] Een testleerling krijgt een eigen kopie met de eigen naam in de titel.
 - [ ] Met die testleerling: het menu **Invoegen** toont **Pagina-elementen** en **Eindemarkering**
   (zie §8). Zo niet: zeg het tijdens de demo en pas de lespagina aan.
@@ -299,9 +308,10 @@ Dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
    helppagina's, maar die zijn deels met AI vertaald. Heet het op de schoolcomputers anders
    (bijvoorbeeld een oudere indeling), pas dan stap 3, 4 en 5 en de theoriekaart aan. Voor het
    pagina-einde werkt **Ctrl + Enter** in elk geval (staat in *Hulp nodig?*).
-2. **Het omzetten van .docx naar Google-document.** Ik kon niet controleren of de liggende pagina,
-   de marges van 1 cm en de lege regels de omzetting overleven, en waar deel 2 daarna precies
-   staat. Kijk het na volgens §2, stap 2.
+2. **Het omzetten van .docx naar Google-document.** Nagekeken op 27-09-2026 via een export van het
+   omgezette document: liggend, marges van 1 cm, de grijze regel bovenaan, de negen lege regels en
+   geen kop- of voettekst bleven bewaard. Waar deel 2 na de nieuwe pagina-instelling precies komt,
+   zie je pas in Documenten zelf.
 3. **Paginanummer + "Pagina" ervoor typen.** De lespagina laat eerst het automatische nummer
    invoegen en dan *Pagina* ervoor typen. Of het nummer daarbij in een aparte regel komt, kon ik
    niet testen.

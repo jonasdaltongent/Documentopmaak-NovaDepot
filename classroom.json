@@ -1,0 +1,27 @@
+{
+  "_uitleg": "Wordt gelezen door _tools/zet_opdracht_klaar.py (zie _tools/CLASSROOM-KOPPELING.md). Dit bestand staat openbaar op GitHub: zet hier nooit een e-mailadres of wachtwoord in. {deadline} vult het script zelf in; de deadline komt uit lesdoelen.json.",
+  "titel": "Tekstverwerking 3 — Klaar om te versturen",
+  "onderwerp": "Tekstverwerker",
+  "klassen": [
+    "3ORLO",
+    "4ORLOa",
+    "4ORLOb"
+  ],
+  "punten": 20,
+  "instructie": [
+    "1. Open de lespagina (link) en je werkdocument TV3_Documentopmaak.",
+    "2. Volg de stappen op de lespagina. In stap 6 maak je een pdf.",
+    "3. Lever je werkdocument én je pdf in, ten laatste {deadline}."
+  ],
+  "bijlagen": [
+    {
+      "soort": "link",
+      "url": "https://jonasdaltongent.github.io/Documentopmaak-NovaDepot/"
+    },
+    {
+      "soort": "kopie",
+      "bestand": "werkdocument/TV3_Documentopmaak.docx",
+      "naam": "TV3_Documentopmaak"
+    }
+  ]
+}
