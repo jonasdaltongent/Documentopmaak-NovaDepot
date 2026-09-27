@@ -1,7 +1,7 @@
 # Handleiding voor de leraar — Les 04: Klaar om te versturen
 
 **Vak:** Toegepaste Informatica
-**Doelgroep:** de ORLO-klassen — 2de graad Organisatie en logistiek, arbeidsmarktgerichte finaliteit
+**Doelgroep:** 3ORLO, 4ORLOa en 4ORLOb — 2de graad Organisatie en logistiek, arbeidsmarktgerichte finaliteit
 **Lesduur:** 1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd (formatief)
 **Context:** NovaDepot, fictief logistiek bedrijf en groothandel (vervolg op les 02–03)
 **Lokaal:** 18 — computers met Windows 11, Google Workspace in Chrome
@@ -312,5 +312,3 @@ Dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
    lespagina doet vermoeden.
 6. **Haalbaarheid.** Zeven stappen met een pdf erbij, in 40 minuten keuzewerktijd. Te krap? Gebruik
    de minimumroute uit `lesvoorbereiding.md` §20.
-7. **Klasnaam.** `lesdoelen.json` gaat uit van `3ORLO` ("de ORLO-klassen"). Pas het veld `klasnaam`
-   aan als het om andere klassen gaat.
