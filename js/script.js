@@ -1,6 +1,6 @@
 /**
  * Les 04 · Klaar om te versturen (NovaDepot, ORLO) — script.js
- * Overgenomen uit les 2 van 3MWWE (versie 2, 23-09-2026); alleen de lesgegevens zijn aangepast.
+ * Overgenomen uit les 2 van 3MWWE (versie 2.1, 27-09-2026); alleen de lesgegevens zijn aangepast.
  * Opbouw naar het voorbeeld van PedalPro: links de route, midden één stap,
  * rechts een checklist met concrete taken.
  *
@@ -8,7 +8,6 @@
  * - checklist: voortgang, afgewerkte stappen krijgen een vinkje in de route
  * - op een smal scherm toont de checklist alleen de taken van de huidige stap
  * - in de laatste stap (data-laatste-stap op body) staat de hele checklist open
- * - toestel kiezen: niet gebruikt in deze les (ORLO werkt op Windows); de code blijft staan
  * - zelftest met directe feedback (wordt niet bewaard)
  * - screenshot-plaatsen: tonen de afbeelding alleen als het bestand bestaat
  * - melding als alles afgevinkt is
@@ -129,24 +128,6 @@
     showStep(t.getAttribute('data-goto'), true);
   });
 
-  /* ---------- 3. Toestel kiezen ----------
-     Zonder keuze staat er "Kies je toestel": zo volgt niemand per ongeluk
-     de verkeerde werkwijze. Zonder JavaScript staan beide werkwijzen er. */
-  var toestelButtons = all('button[data-toestel]');
-
-  function setToestel(keuze, bewaren) {
-    body.classList.remove('toestel-cros', 'toestel-win');
-    if (keuze === 'cros' || keuze === 'win') body.classList.add('toestel-' + keuze);
-    toestelButtons.forEach(function (b) {
-      b.setAttribute('aria-pressed', b.getAttribute('data-toestel') === keuze ? 'true' : 'false');
-    });
-    if (bewaren) store('toestel', keuze || '');
-  }
-  toestelButtons.forEach(function (b) {
-    b.addEventListener('click', function () { setToestel(b.getAttribute('data-toestel'), true); });
-  });
-  setToestel(load('toestel', ''), false);
-
   /* ---------- 4. Vinkjes wissen ---------- */
   var reset = document.getElementById('btnReset');
   if (reset) {
@@ -154,7 +135,6 @@
       if (!window.confirm('Wil je alle vinkjes op deze pagina wissen? Je werkdocument en je pdf veranderen niet.')) return;
       checks.forEach(function (c) { c.checked = false; });
       store('vinkjes', []);
-      setToestel('', true);
       updateProgress(false);
     });
   }

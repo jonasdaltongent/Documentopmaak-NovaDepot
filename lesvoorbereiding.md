@@ -2,23 +2,24 @@
 title: "Lesvoorbereiding — Les 04: Klaar om te versturen (Tekstverwerking 3: documentopmaak en pdf)"
 vak: "Toegepaste Informatica"
 studierichting: "Organisatie en logistiek (arbeidsmarktgerichte finaliteit), 2de graad — de ORLO-klassen"
-lesduur: "1 × 50 minuten + 30 minuten keuzewerktijd"
+lesduur: "1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd"
 week: "W05 — 2026-2027"
-toestel: "Windows 10-pc met AZERTY-klavier, Google Chrome en Google Workspace"
+lokaal: "18 — computers met Windows 11, Google Workspace in Chrome"
 leerplan: "Leerplannen 2de graad TOINFO.md (GO! 2A/ORGANIS en 2024/2A/BAS, versie 31-01-2025)"
-opgesteld_volgens: "AI-lesplanner versie 2 (23-09-2026)"
+opgesteld_volgens: "AI-lesplanner versie 2.1 (27-09-2026)"
 ---
 
 # Lesvoorbereiding — Les 04: Klaar om te versturen
 
-Opgesteld volgens §9.2 van de AI-lesplanner (versie 2). De leerplandoelen zijn **letterlijk**
+Opgesteld volgens §9.2 van de AI-lesplanner (versie 2.1). De leerplandoelen zijn **letterlijk**
 overgenomen uit `Leerplannen 2de graad TOINFO.md` en daar automatisch mee vergeleken.
 
 > [!NOTE]
 > **Afwijking van de vierfasige opbouw** (*Ik doe → Wij doen → Jullie doen → Jij doet*) uit het
 > leerplan en uit versie 1 van de AI-lesplanner, op vraag van de leraar. De les volgt
-> **Ik doe → Jullie doen**: een korte instructie van **5 minuten** met demonstratie, daarna werken
-> de leerlingen zelfstandig met de lespagina. De "Wij doen"-stap zit in de demo: de leraar zet in
+> **Ik doe → Jullie doen**: een instructie van **10 minuten** (lesstart, een demonstratie van
+> **5 minuten**, zo werk je verder), daarna werken de leerlingen **40 minuten** zelfstandig met de
+> lespagina: de keuzewerktijd. De "Wij doen"-stap zit in de demo: de leraar zet in
 > de eigen kopie van het werkdocument de pagina-instelling juist (rij 1 van het vragenblad, die
 > al ingevuld is) en verhuist de koptekst; de leerlingen doen daarna alles zelf.
 
@@ -27,6 +28,14 @@ overgenomen uit `Leerplannen 2de graad TOINFO.md` en daar automatisch mee vergel
 > in: het werkdocument én de pdf die hij ervan maakte. Volgens §5.1 van de lesplanner is het
 > werkdocument het enige dat ingeleverd wordt. Hier is de pdf het eindproduct van de les: een
 > document versturen gebeurt op kantoor als pdf.
+
+> [!NOTE]
+> **Aangepast aan versie 2.1 van de lesplanner (27-09-2026).** Alle klassen werken vanaf 28-09-2026
+> in **lokaal 18**, een computerlokaal met **Windows 11**: de lespagina en het werkdocument geven
+> alleen de werkwijze voor Windows. Hoe de leerlingen hun vensters schikken, kiezen ze zelf; de
+> leraar toont dat in de klas. De leerlingen starten elke les in Classroom, dus de lespagina zegt
+> niet meer dat ze de opdracht moeten openen. Een les is instructie + keuzewerktijd, samen
+> 50 minuten.
 
 ---
 
@@ -53,8 +62,8 @@ werktempo. Instructies opvolgen en begrijpend lezen zijn een werkpunt (zie les 0
 
 ## 3. Tijdsduur
 
-1 × 50 minuten lestijd + 30 minuten keuzewerktijd (Dalton). Wat in de lestijd niet af raakt, wordt
-keuzewerktijd (zie `dalton-lesfiche.md`).
+1 × 50 minuten: **10 minuten instructie** en **40 minuten keuzewerktijd** (keuzewerktijd = 50 − instructie).
+De verdeling over de taken staat in `dalton-lesfiche.html`.
 
 ## 4. Context
 
@@ -106,8 +115,8 @@ De keuze volgt **cluster B — Tekstverwerking en digitale documenten** (kern: `
 
 - **BK2_02.04** (*De leerlingen gebruiken functioneel ondersteunende kantoorapparatuur en
   kantoorsoftware.*): overlapt met het specifiekere `BK2_02.05.02`, zoals in les 02–03.
-- **BK2_01.02.02** (planning en organisatie): de keuzewerktijd vraagt planning, maar die wordt
-  vandaag niet aangeleerd of geëvalueerd.
+- **BK2_01.02.02** (planning en organisatie): de taken volgen elkaar in een vaste volgorde op;
+  plannen wordt vandaag niet aangeleerd of geëvalueerd.
 - **BV2_04.01** (digitaal communiceren): de pdf *versturen* per e-mail komt in de les over de
   zakelijke e-mail. Vandaag voegt de leerling hem alleen toe aan een Classroom-opdracht.
 - **BK2_02.08.02** (uitgaande post, briefwisseling): een zakelijke brief met briefhoofd is een
@@ -144,14 +153,14 @@ De eindtaak ligt op het officiële niveau **toepassen**.
 
 ## 10. Benodigde voorkennis
 
-Alles uit les 02–03: een Classroom-opdracht openen, twee vensters naast elkaar, selecteren (3 keer
+Alles uit les 02–03: een Classroom-opdracht openen, selecteren (3 keer
 klikken; klikken + Shift + klikken), knippen en plakken, de opmaakmarkeringen aanzetten
 (*Bekijken › Opmaakmarkeringen tonen*), rechts uitlijnen. De theoriekaart zet dat op één kaartje
 (*Uit les 02 en 03*).
 
 ## 11. Benodigd materiaal en software
 
-- Windows 10-pc per leerling met AZERTY-klavier, Google Chrome en het schoolaccount.
+- Een computer in lokaal 18 (Windows 11) met het schoolaccount en Google Chrome.
 - Google Classroom en Google Documenten. De pdf opent in de pdf-lezer van de computer.
 - Beamer met `presentatie.html` (8 dia's).
 - De lespagina (`https://jonasdaltongent.github.io/Documentopmaak-NovaDepot/`) en het werkdocument **TV3_Documentopmaak**.
@@ -163,12 +172,15 @@ Zie `README.md` §2. In het kort:
 
 1. De lespagina staat online (gepubliceerd op 27-09-2026):
    `https://jonasdaltongent.github.io/Documentopmaak-NovaDepot/`.
-2. Upload `werkdocument/TV3_Documentopmaak.docx` naar Drive en **zet het om naar een
-   Google-document**. Kijk daarna na of de fouten er nog in zitten: liggend, marges van 1 cm, de
-   grijze regel bovenaan pagina 1, lege regels tussen deel 1 en deel 2, geen kop- en voettekst.
-3. Maak in Classroom **één** opdracht met twee bijlagen (lespagina + werkdocument met *Een kopie
-   maken voor elke leerling*) en test met een leerlingaccount of het menu **Invoegen** de
-   onderdelen **Pagina-elementen** en **Eindemarkering** toont (README §8).
+2. Zet **één keer** in Drive de instelling *Uploads converteren naar de indeling van een Editor
+   van Google Documenten* aan. Upload `werkdocument/TV3_Documentopmaak.docx` **in Drive**
+   (**Nieuw** › **Bestanden uploaden**): dan wordt het een Google-document. Kijk daarna na of de
+   fouten er nog in zitten: liggend, marges van 1 cm, de grijze regel bovenaan pagina 1, lege regels
+   tussen deel 1 en deel 2, geen kop- en voettekst. Details: `README.md` §2.
+3. Maak in Classroom **één** opdracht met twee bijlagen (lespagina met **Link**, werkdocument met
+   **Drive** en *Een kopie maken voor elke leerling*; de Classroom-upload zet een `.docx` niet om)
+   en test met een leerlingaccount of het menu **Invoegen** de onderdelen **Pagina-elementen** en
+   **Eindemarkering** toont (README §8).
 
 ## 13. Opbouw in Google Classroom
 
@@ -179,7 +191,7 @@ Onderwerp **Tekstverwerking – de basis** (zoals les 02–03). Eén opdracht,
 | Bijlage | Instelling | Waarom |
 |---|---|---|
 | Link naar de lespagina | link | de instructies |
-| `TV3_Documentopmaak` (Google-document) | **Een kopie maken voor elke leerling** | het werkdocument; kan alleen vóór het posten gekozen worden |
+| `TV3_Documentopmaak` (Google-document) | met **Drive**; **Een kopie maken voor elke leerling** | het werkdocument; de kopie kan alleen vóór het posten gekozen worden |
 
 De leerling voegt zelf een derde bestand toe: zijn **pdf** (*Jouw werk › Toevoegen of maken ›
 Bestand*). Er is geen zip-bestand, want er zijn geen bronbestanden.
@@ -208,11 +220,10 @@ Verwachte antwoorden: `README.md` §4.
 
 | Fase | Tijd | Inhoud |
 |---|---|---|
-| **1. Lesstart** | 3' | Dia 1–2. Retrieval van les 02–03 met vingers: *wat betekent ¶?* en *hoe zet je een titel in het midden?* Doorvraag: wat gebeurt er met spaties als de lettergrootte verandert? |
-| **2. Ik doe** | **5'** | Dia 3–6. Lesdoel (30"), eindproduct voor en na (1'). **Demo, hardop denkend** in de eigen kopie: (a) opmaakmarkeringen aan, *Bestand › Pagina-instelling*: Pagina's, staand, A4, vier keer 2 cm — en tonen dat deel 2 nu op een verkeerde plek staat: *"Enters zijn geen oplossing"* (1'30"); (b) de grijze regel knippen, *Invoegen › Pagina-elementen › Koptekst*, plakken, rechts uitlijnen, en uit de koptekst klikken; pagina 2 tonen (1'30"). |
-| **3. Jullie doen** | 34' | Dia 7 blijft staan. Stap 1 tot 6 op de lespagina. Eerste rondgang: werkt iedereen in de eigen kopie, staan de opmaakmarkeringen aan? Tweede rondgang rond stap 3: zit iemand vast in de koptekst? Daarna gerichte feedback en verlengde instructie aan de instructietafel. |
-| **4. Controle en indiening** | 6' | Stap 7: zelftest van 3 vragen, pdf toevoegen, checklist, slotvraag, *Inleveren*. |
-| **5. Afsluiting** | 2' | Dia 8: *waarom stuurt NovaDepot de brochure als pdf?* Vooruitblik op les 05 (tabellen). |
+| **Instructie** — lesstart | 3' | Dia 1–2. Retrieval van les 02–03 met vingers: *wat betekent ¶?* en *hoe zet je een titel in het midden?* Doorvraag: wat gebeurt er met spaties als de lettergrootte verandert? |
+| **Instructie** — Ik doe | **5'** | Dia 3–6. Lesdoel (30"), eindproduct voor en na (1'). **Demo, hardop denkend** in de eigen kopie: (a) opmaakmarkeringen aan, *Bestand › Pagina-instelling*: Pagina's, staand, A4, vier keer 2 cm — en tonen dat deel 2 nu op een verkeerde plek staat: *"Enters zijn geen oplossing"* (1'30"); (b) de grijze regel knippen, *Invoegen › Pagina-elementen › Koptekst*, plakken, rechts uitlijnen, en uit de koptekst klikken; pagina 2 tonen (1'30"). |
+| **Instructie** — zo werk je verder | 2' | Dia 7: waar alles staat (de opdracht), de stappen, de hulpvolgorde. |
+| **Keuzewerktijd** | **40'** | Dia 7 blijft staan. Stap 1 tot 7 op de lespagina, pdf en inleveren inbegrepen (stap 7: zelftest van 3 vragen, pdf toevoegen, checklist, slotvraag, *Inleveren*). Eerste rondgang: werkt iedereen in de eigen kopie, staan de opmaakmarkeringen aan? Tweede rondgang rond stap 3: zit iemand vast in de koptekst? Daarna gerichte feedback en verlengde instructie aan de instructietafel. In de laatste minuut: dia 8 (*waarom stuurt NovaDepot de brochure als pdf?*, vooruitblik op les 05) en mondeling: wie niet klaar is, levert toch in. |
 
 Wat **niet** wordt voorgedaan, om binnen vijf minuten te blijven: paginanummers, het pagina-einde,
 de pdf en het toevoegen in Classroom. Die staan stap voor stap op de lespagina. De begripscontrole
@@ -221,28 +232,30 @@ met vingers zit in de lesstart; de controle van de nieuwe inhoud zit in de zelft
 ## 18–19. Zelfstandige verwerking en stappenplan
 
 De lespagina volgt de opbouw van versie 2 (PedalPro): links de **route**, midden **één stap**,
-rechts de **checklist** met 22 concrete taken. Op een half scherm staat alles onder elkaar en toont
+rechts de **checklist** met 22 concrete taken. Op een smal venster staat alles onder elkaar en toont
 de checklist alleen de taken van de huidige stap. Elke stap heeft vijf blokken: één zin uitleg ·
 *Wat moet je doen?* · hoogstens één tip · *Hulp nodig?* · *Klaar als*.
 
 *De pagina's klaarmaken*
 
-1. **Klaarzetten** — opdracht en werkdocument openen, opmaakmarkeringen aan, naam op het
-   vragenblad. (3')
+1. **Klaarzetten** — werkdocument openen, opmaakmarkeringen aan, naam op het vragenblad. (3')
 2. **De pagina instellen** — staand, A4, marges 2 cm; rij 1 lezen. (4')
 3. **Een koptekst** — de grijze regel knippen en in de koptekst plakken, rechts uitlijnen; rij 2
-   en vraag 1. (6')
+   en vraag 1. (7')
 4. **Paginanummers** — *Invoegen › Pagina-elementen › Paginanummer*, rechtsonder, *Pagina* ervoor;
    rij 3. (5')
 5. **Een nieuwe pagina** — lege regels wissen, pagina-einde vóór *Afspraken en contact*; rij 4 en
-   vraag 2. (6')
+   vraag 2. (7')
 
 *Versturen*
 
-6. **Een pdf maken** — *Bestand › Downloaden*, pdf openen en nakijken; vraag 3. (6')
-7. **Controleren en inleveren** — zelftest, pdf toevoegen in Classroom, vraag 4, checklist,
-   *Inleveren*. (5')
+6. **Een pdf maken** — *Bestand › Downloaden*, pdf openen en nakijken; vraag 3. (7')
+7. **Controleren en inleveren** — zelftest, pdf toevoegen in de opdracht, vraag 4, checklist,
+   *Inleveren*. (7')
 8. **Extra (optioneel)** — *Pagina 1 van 3* met *Aantal pagina's*, en het logo in de koptekst.
+
+Stap 1 tot 7 samen: **40 minuten**, de keuzewerktijd, inleveren inbegrepen. De extra stap krijgt geen
+minuten ("als je tijd over hebt"). Dezelfde minuten staan op dia 7 en in `dalton-lesfiche.html`.
 
 **Schrijfregels:** één handeling per regel, werkwoord vooraan · korte zinnen · vaste woorden
 (*lespagina*, *werkdocument*, *brochure*, *vragenblad*) · knopnamen in een grijs vakje, precies zoals
@@ -256,15 +269,15 @@ theoriekaart · *Hulp nodig?* bevat alleen extra uitleg, nooit extra opdrachten.
   als een menunaam anders is · de hulpvolgorde *theoriekaart → Hulp nodig? → buur → leraar* ·
   verlengde instructie aan de instructietafel.
 - **Minimumroute:** stap 2 (pagina-instelling), stap 3 (koptekst), stap 5 (pagina-einde), stap 6
-  (pdf) en de pdf toevoegen in stap 7. Paginanummers (stap 4) en de vragen 1 tot 3 mogen in de
-  keuzewerktijd.
+  (pdf) en de pdf toevoegen in stap 7. Paginanummers (stap 4) en de vragen 1 tot 3 mogen later,
+  vóór de deadline; na de paginanummers maakt de leerling dan een nieuwe pdf.
 - **Voor wie snel klaar is:** de extra stap, uitdrukkelijk optioneel, pas na het inleveren. Ze telt
   niet mee in de checklist.
 - **Taalvaardigheid:** korte zinnen, één handeling per regel, een kaartje *Woorden* met zes
   begrippen.
-- **Thuis op een Chromebook:** alles gebeurt in de browser. Alleen de plaats van de pdf verschilt
-  (app Bestanden, map Downloads); dat staat niet op de lespagina omdat de klas op school op
-  Windows werkt.
+- **Thuis of op een ander toestel:** alles gebeurt in de browser. Alleen de plaats waar de pdf
+  terechtkomt, kan verschillen: de lespagina beschrijft de computers van lokaal 18 (Windows 11).
+  De vinkjes op de lespagina zijn gekoppeld aan die ene computer.
 
 ## 21. Controle van begrip
 
@@ -311,7 +324,8 @@ toegevoegd, of een pdf van een ander document · het document op *Zonder paginer
 - De leerling leest op de **lespagina** en werkt in de eigen kopie van **TV3_Documentopmaak**.
 - De leerling levert **twee** bestanden in via *Inleveren*: het werkdocument en de pdf.
 - **Deadline:** vrijdag 2 oktober 2026 om 20.00 uur.
-- Niet klaar? Toch inleveren, met onder *Privéreacties* tot welke stap de leerling kwam.
+- Niet klaar? Toch inleveren. De leraar zegt dat mondeling aan het einde van de les; het staat
+  bewust niet op de lespagina (wie niet klaar is, leest het toch niet meer).
 
 ## 25. Privacy, auteursrecht en digitale veiligheid
 
@@ -349,7 +363,7 @@ toegevoegd, of een pdf van een ander document · het document op *Zonder paginer
 - Theoriekaart: tien kaartjes — een pagina instellen · zo ziet een pagina eruit (schets) · kop- en
   voettekst · paginanummers · een nieuwe pagina · een pdf · Downloads of de cloud? · uit les 02 en
   03 · woorden · veelgemaakte fouten.
-- Onder 1200 px schuift de checklist onder de stap; onder 900 px (een half laptopscherm) wordt de
+- Onder 1200 px schuift de checklist onder de stap; onder 900 px (een smal venster) wordt de
   route een rij genummerde bolletjes.
 
 ## 28. Benodigde interactieve functies
@@ -362,4 +376,5 @@ toegevoegd, of een pdf van een ander document · het document op *Zonder paginer
 - Screenshot-plaatsen die alleen verschijnen als het bestand bestaat (`index.html?leraar` toont
   de lege plaatsen).
 - Eén rustige melding wanneer alle 22 taken afgevinkt zijn.
-- Geen toestelkeuze: de klas werkt op Windows. Geen logins, tracking of externe scripts.
+- Geen toestelkeuze: alle klassen werken in lokaal 18 op Windows 11. Geen logins, tracking of
+  externe scripts.

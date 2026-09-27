@@ -27,9 +27,10 @@ LET OP bij aanpassen: de fouten in de paginaopmaak zijn OPZETTELIJK. Ze zijn het
  - De brochure zelf volgt de huisstijlkaart van les 03 (Verdana; titel 20 pt vet gecentreerd;
    tussentitel 14 pt vet; tekst 12 pt; lijsten met opsommingstekens; laatste regel rechts).
    Het vragenblad staat bewust in Arial: alles in Verdana hoort bij de brochure.
- - Het document wordt in Drive omgezet naar een Google-document (Classroom maakt daar een kopie
-   per leerling van). Controleer na het omzetten of het nog liggend staat, met smalle marges en
-   met de lege regels. Zie README.md, paragraaf 2.
+ - Het document wordt in Drive omgezet naar een Google-document (Drive-instelling "Uploads
+   converteren", uploaden in Drive zelf; Classroom maakt daar een kopie per leerling van).
+   Controleer na het omzetten of het nog liggend staat, met smalle marges en met de lege regels.
+   Zie README.md, paragraaf 2.
  - NovaDepot, alle namen en toestelnummers zijn fictief.
 """
 import os
@@ -300,10 +301,10 @@ def vragenblad(doc):
 
     vb_kop(doc, "Zo werk je", 12, voor=10)
     for s in [
-        "1.  Links op je scherm staat de lespagina. Daar lees je wat je moet doen.",
+        "1.  Op de lespagina lees je wat je moet doen, stap voor stap.",
         "2.  Pagina 1 en 2 zijn de brochure van NovaDepot. Die maak jij klaar om te versturen.",
         "3.  Op dit vragenblad schrijf je wat je deed en waarom.",
-        "4.  Je levert dit document én je pdf in via Google Classroom.",
+        "4.  Je levert dit document én je pdf in.",
     ]:
         vb_tekst(doc, s, na=1)
 
@@ -355,14 +356,14 @@ def vragenblad(doc):
         "Tussen deel 1 en deel 2 staan geen lege regels meer.",
         "Deel 2 begint bovenaan pagina 2, met een pagina-einde.",
         "Mijn pdf heeft 3 pagina's en ik heb hem nagekeken.",
-        "Mijn pdf staat bij Jouw werk in Classroom, naast dit document.",
+        "Mijn pdf staat bij Jouw werk in de opdracht, naast dit document.",
         "Rij 2, 3 en 4 en de vier vragen zijn ingevuld.",
     ]:
         vb_tekst(doc, "☐  " + s, na=1)
 
     # ---- extra ----
     vb_kop(doc, "Extra — niet verplicht")
-    vb_tekst(doc, "Alleen als je al ingeleverd hebt. Klik in Classroom op Inleveren ongedaan maken. "
+    vb_tekst(doc, "Alleen als je al ingeleverd hebt. Klik in de opdracht op Inleveren ongedaan maken. "
                   "Lever daarna opnieuw in. Je pdf hoef je niet opnieuw te maken.", klein=True)
     vb_tekst(doc, "a) Maak van Pagina 1 → Pagina 1 van 3. Kijk op de lespagina bij Extra.", vet=True, na=2)
     vb_tekst(doc, "b) Zet dit logo in je koptekst. Kopieer het, plak het in de koptekst en maak het "

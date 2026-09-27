@@ -2,9 +2,9 @@
 
 **Vak:** Toegepaste Informatica
 **Doelgroep:** de ORLO-klassen — 2de graad Organisatie en logistiek, arbeidsmarktgerichte finaliteit
-**Lesduur:** 1 × 50 minuten + 30 minuten keuzewerktijd (formatief)
+**Lesduur:** 1 × 50 minuten: 10 minuten instructie + 40 minuten keuzewerktijd (formatief)
 **Context:** NovaDepot, fictief logistiek bedrijf en groothandel (vervolg op les 02–03)
-**Toestel:** Windows 10-pc met AZERTY-klavier, Google Chrome en Google Workspace
+**Lokaal:** 18 — computers met Windows 11, Google Workspace in Chrome
 **Kernleerplandoelen:** `BK2_02.05` / `BK2_02.05.02` (tekstverwerking, minimale inhoud *documentopmaak*) en `BV2_04.02` (digitale inhouden creëren) — toepassen
 **Deadline:** vrijdag 2 oktober 2026, 20.00 uur
 
@@ -30,8 +30,8 @@ W05 - Les 04 - ORLO - Tekstverwerking - documentopmaak/
 ├── werkdocument/
 │   ├── TV3_Documentopmaak.docx  # het werkdocument dat de leerling INLEVERT (met de pdf)
 │   └── maak_werkdocumenten.py   # maakt het werkdocument opnieuw (python-docx)
-├── lesvoorbereiding.md          # volgens §9.2 van de AI-lesplanner v2
-├── dalton-lesfiche.md           # lestijd + keuzewerktijd
+├── lesvoorbereiding.md          # volgens §9.2 van de AI-lesplanner v2.1
+├── dalton-lesfiche.html         # Dalton-lesfiche in de kleurcode: openen, Kopieer, plakken in je planner
 ├── lesdoelen.json               # leerplandoelen voor je jaaroverzicht
 └── README.md                    # deze handleiding
 ```
@@ -41,18 +41,22 @@ net als bij les 02–03.
 
 ### 1b. Hoe de lespagina werkt
 
-Dezelfde opbouw als les 2 van 3MWWE (AI-lesplanner v2):
+Dezelfde opbouw als les 2 van 3MWWE (AI-lesplanner v2.1):
 
 - **Links de route** — *Start*, *Theoriekaart*, zeven stappen in twee groepen (*De pagina's
   klaarmaken* · *Versturen*) en *Extra*. Een afgewerkte stap krijgt een groen vinkje.
 - **Midden één stap** — vijf vaste blokken: één zin uitleg · *Wat moet je doen?* · hoogstens één
   tip · *Hulp nodig?* (dichtgeklapt) · *Klaar als*.
-- **Rechts de checklist** — 22 concrete taken. Op een half scherm staat alles onder elkaar en zie je
-  alleen de taken van de huidige stap; in stap 7 staat de hele lijst open.
+- **Rechts de checklist** — 22 concrete taken. Op een smal venster staat alles onder elkaar en zie
+  je alleen de taken van de huidige stap; in stap 7 staat de hele lijst open. Hoe de leerlingen hun
+  vensters schikken, kiezen ze zelf: de pagina zegt er niets over.
 - **Theoriekaart** — tien kaartjes, met een schets van een pagina (koptekst, marge, tekst,
   voettekst), een kaartje *Uit les 02 en 03*, *Woorden* en *Veelgemaakte fouten*.
-- **Geen toestelkeuze**: de klas werkt op Windows. Alles gebeurt in de browser, behalve de pdf
-  openen.
+- **Alleen Windows 11**: alle klassen werken in lokaal 18. De pagina vraagt niet naar het toestel.
+  Alles gebeurt in de browser, behalve de pdf openen.
+- **Classroom is het vertrekpunt**: de leerlingen starten elke les in Classroom en vinden daar de
+  opdracht met de lespagina en hun werkdocument. De pagina zegt alleen "in de opdracht" waar ze er
+  iets uit nodig hebben (*Jouw werk*, *Inleveren*).
 
 `localStorage` bewaart alleen de vinkjes en de laatste stap (voorvoegsel `novadepot_tv3_v1_`), met
 een wisknop.
@@ -76,15 +80,22 @@ het aan en push opnieuw. Een wijziging staat 1 à 2 minuten na de push online.
 
 ### Stap 2 — Het werkdocument omzetten en nakijken
 
-1. Upload `werkdocument/TV3_Documentopmaak.docx` naar Drive.
-2. **Zet het om naar een Google-document.** Classroom maakt de kopie per leerling alleen in
-   Google-formaat ([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl)).
-   Een gedocumenteerde manier: in Drive-instellingen (`drive.google.com/drive/settings`) het vakje
-   **Uploads converteren naar de indeling van een Editor van Google Documenten** aanvinken en
-   daarna uploaden ([Drive-help 2424368](https://support.google.com/drive/answer/2424368?hl=nl)).
-   Let op: die instelling geldt dan voor al je volgende uploads. Het menupad om één bestand om te
-   zetten staat niet in de helppagina's die ik kon lezen.
-3. **Kijk het omgezette document na.** De fouten zijn het lesmateriaal, ze moeten er nog in zitten:
+Classroom maakt de kopie per leerling alleen in Google-formaat
+([Classroom-help](https://support.google.com/edu/classroom/answer/6020265?hl=nl)), dus het
+werkdocument moet een Google-document zijn.
+
+**Eenmalig, en daarna nooit meer:** zet in Google Drive de instelling aan die een Word-bestand bij het
+uploaden meteen omzet naar Google Documenten. Ga naar
+[drive.google.com/drive/settings](https://drive.google.com/drive/settings) en vink **Uploads
+converteren naar de indeling van een Editor van Google Documenten** aan
+([Drive-help](https://support.google.com/drive/answer/2424368?hl=nl)). Let op: vanaf dan wordt élk
+Word-, Excel- of PowerPoint-bestand dat jij uploadt een Google-bestand.
+
+Daarna, voor deze les:
+
+1. Upload `werkdocument/TV3_Documentopmaak.docx` **in Drive zelf**: **Nieuw** › **Bestanden
+   uploaden**. Staat er geen `.docx` meer achter de naam? Dan is het een Google-document.
+2. **Kijk het omgezette document na.** De fouten zijn het lesmateriaal, ze moeten er nog in zitten:
    - [ ] *Bestand › Pagina-instelling* toont **liggend** en marges van **1 cm**;
    - [ ] bovenaan pagina 1 staat de grijze regel *NovaDepot · Onthaalbrochure jobstudenten · oktober 2026*;
    - [ ] er is **geen** koptekst, voettekst of paginanummer;
@@ -92,12 +103,16 @@ het aan en push opnieuw. Een wijziging staat 1 à 2 minuten na de push online.
      *Afspraken en contact*;
    - [ ] pagina 3 is het vragenblad, rij 1 van de tabel is ingevuld, en onderaan staat het logo;
    - [ ] de tekst staat niet vol rode golflijnen (zo wel: zet de taal van het document op Nederlands).
-4. Verwijder daarna het `.docx`-bestand uit Drive, zodat je niet per ongeluk het verkeerde bestand
-   aan de opdracht hangt.
+
+> [!IMPORTANT]
+> Voeg het werkdocument **niet** toe met **Uploaden** in Classroom. Die knop volgt de Drive-instelling
+> niet: het bestand blijft dan een `.docx` (getest op 27-09-2026).
 
 ### Stap 3 — Eén opdracht in Google Classroom
 
-Onderwerp **Tekstverwerking – de basis** (zoals les 02–03):
+Onderwerp **Tekstverwerking – de basis** (zoals les 02–03). Voeg het werkdocument toe met
+**Bijvoegen** › **Drive** en kies **Een kopie maken voor elke leerling**: elke leerling krijgt een eigen
+kopie met de eigen naam in de titel. Voeg de lespagina toe met **Link**.
 
 | | Opdracht: **Tekstverwerking 3 — Klaar om te versturen** |
 |---|---|
@@ -113,23 +128,27 @@ Onderwerp **Tekstverwerking – de basis** (zoals les 02–03):
 Instructietekst (kopieer):
 
 ```text
-1. Open de lespagina (link). Zet ze links op je scherm.
-2. Open je werkdocument TV3_Documentopmaak. Zet het rechts.
-3. Volg de stappen op de lespagina. In stap 6 maak je een pdf.
-4. Lever je werkdocument én je pdf in. Niet klaar? Lever toch in en schrijf onder Privéreacties tot welke stap je kwam.
+1. Open de lespagina (link) en je werkdocument TV3_Documentopmaak.
+2. Volg de stappen op de lespagina. In stap 6 maak je een pdf.
+3. Lever je werkdocument én je pdf in.
 ```
+
+Wie niet klaar is, levert toch in: dat zeg je mondeling op het einde van de les (notities bij dia 8).
+Het staat bewust niet op de lespagina en niet in de instructietekst.
 
 Je e-mailadres is deze les **niet** nodig: de leerlingen delen niets.
 
 ### Afvinklijst vóór de les
 
 - [x] De lespagina is gepubliceerd en het adres op dia 7 klopt. (Getest op 27-09-2026.)
-- [ ] Het werkdocument is een **Google-document** en bevat nog alle fouten (stap 2 hierboven).
+- [ ] Het werkdocument is een **Google-document** (geen `.docx` achter de naam), toegevoegd met
+  **Drive**, en bevat nog alle fouten (stap 2 hierboven).
 - [ ] Een testleerling krijgt een eigen kopie met de eigen naam in de titel.
 - [ ] Met die testleerling: het menu **Invoegen** toont **Pagina-elementen** en **Eindemarkering**
   (zie §8). Zo niet: zeg het tijdens de demo en pas de lespagina aan.
 - [ ] Met die testleerling: *Bestand › Downloaden* geeft een pdf, en *Jouw werk › Toevoegen of
   maken › Bestand* laat die pdf toevoegen.
+- [ ] De Dalton-lesfiche staat in je planner (open `dalton-lesfiche.html`, klik op **Kopieer de fiche**, plak).
 - [ ] `presentatie.html` opent op de beamer; `N` toont je notities, `F` is volledig scherm.
 
 ### 2b. Nagelezen klikpaden (26-09-2026)
@@ -151,7 +170,7 @@ anders zegt, geldt jouw scherm.
 | Pdf maken | **Bestand** › **Downloaden**, de pdf-indeling kiezen in de lijst | [Drive 2423534](https://support.google.com/drive/answer/2423534?hl=nl) |
 | Download openen | de **downloadlade** rechts naast de adresbalk, op het bestand klikken; of **Meer** › **Downloads** | [Chrome 95759](https://support.google.com/chrome/answer/95759?hl=nl) |
 | Bestand toevoegen | **Jouw werk** › **Toevoegen of maken** › **Bestand**, bijlage kiezen, **Toevoegen**; **Verwijderen** naast een bijlage | [Classroom 6020285](https://support.google.com/edu/classroom/answer/6020285?hl=nl) |
-| Inleveren | **Inleveren** · **Inleveren ongedaan maken** · **Privéreacties** › **Posten** | idem |
+| Inleveren | **Inleveren** · **Inleveren ongedaan maken** (**Privéreacties** › **Posten** alleen voor jouw feedback, niet op de lespagina) | idem |
 
 **Niet in de helppagina's, dus beschreven in plaats van benoemd:** de namen van de keuzes in
 *Pagina-instelling* (staand, A4, de vier margevakken), de voorbeelden in het menu *Paginanummer*
@@ -165,11 +184,11 @@ bestand van je computer te kiezen.
 
 | Fase | Tijd | Wat |
 |---|---|---|
-| Lesstart | 3' | Dia 1–2: retrieval van les 02–03 (¶ en centreren) |
-| **Ik doe** | **5'** | Dia 3–6: lesdoel, voor en na, en twee dingen voordoen: de pagina-instelling (en tonen dat deel 2 verschuift) en de koptekst |
-| Jullie doen | 34' | Dia 7 blijft staan; de leerlingen werken stap 1 tot 6 af |
-| Controle en indiening | 6' | Stap 7: zelftest, pdf toevoegen, checklist, vraag 4, Inleveren |
-| Afsluiting | 2' | Dia 8: waarom een pdf? Vooruitblik op les 05 (tabellen) |
+| **Instructie** | **10'** | Dia 1–2 lesstart (3'): retrieval van les 02–03 (¶ en centreren). Dia 3–6 demo (5'): lesdoel, voor en na, en twee dingen voordoen: de pagina-instelling (en tonen dat deel 2 verschuift) en de koptekst. Dia 7 *Zo werk je verder* (2') |
+| **Keuzewerktijd** | **40'** | Dia 7 blijft staan; de leerlingen werken stap 1 tot 7 af, pdf en inleveren inbegrepen. Dia 8 in de laatste minuut: waarom een pdf? Vooruitblik op les 05 (tabellen). |
+
+Keuzewerktijd = 50 minuten − instructietijd. De minuten per stap staan op dia 7 en in
+`dalton-lesfiche.html`. Zeg aan het einde mondeling dat wie niet klaar is, toch inlevert.
 
 Volledige uitwerking: `lesvoorbereiding.md` §15–17. De hardop-denk-tekst voor de demo staat in de
 notities (`N` in `presentatie.html`).
@@ -282,7 +301,7 @@ Dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
    pagina-einde werkt **Ctrl + Enter** in elk geval (staat in *Hulp nodig?*).
 2. **Het omzetten van .docx naar Google-document.** Ik kon niet controleren of de liggende pagina,
    de marges van 1 cm en de lege regels de omzetting overleven, en waar deel 2 daarna precies
-   staat. Kijk het na volgens §2, stap 3.
+   staat. Kijk het na volgens §2, stap 2.
 3. **Paginanummer + "Pagina" ervoor typen.** De lespagina laat eerst het automatische nummer
    invoegen en dan *Pagina* ervoor typen. Of het nummer daarbij in een aparte regel komt, kon ik
    niet testen.
@@ -291,7 +310,7 @@ Dingen die ik niet vooraf kon testen. Noteer na de les wat er gebeurde:
 5. **De pdf openen.** Op de schoolcomputers opent een pdf in het standaardprogramma (Chrome,
    Microsoft Edge of een ander). Dat maakt niet uit, maar het ziet er misschien anders uit dan de
    lespagina doet vermoeden.
-6. **Haalbaarheid.** Zeven stappen met een pdf erbij, in 50 + 30 minuten. Te krap? Gebruik de
-   minimumroute uit `lesvoorbereiding.md` §20.
+6. **Haalbaarheid.** Zeven stappen met een pdf erbij, in 40 minuten keuzewerktijd. Te krap? Gebruik
+   de minimumroute uit `lesvoorbereiding.md` §20.
 7. **Klasnaam.** `lesdoelen.json` gaat uit van `3ORLO` ("de ORLO-klassen"). Pas het veld `klasnaam`
    aan als het om andere klassen gaat.
